@@ -17,3 +17,11 @@ before(done => {
       console.log(err);
     });
 });
+
+//dropping the collection before each test...
+beforeEach(done => {
+  mongoose.connection.collections.mariochars.drop(() => {
+    console.log("Dropped...");
+    done();
+  });
+});
