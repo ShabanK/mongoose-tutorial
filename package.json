@@ -5,6 +5,7 @@
   "author": "ShabanK <nooneyouwillknow@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "test": "mocha",
     "start": "nodemon app.js"
   },
   "dependencies": {
