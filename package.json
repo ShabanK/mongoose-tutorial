@@ -1,0 +1,12 @@
+{
+  "name": "mongo-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ShabanK <nooneyouwillknow@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.12"
+  }
+}
